@@ -1,10 +1,7 @@
-letter = input("Enter a letter: ")
-a = "a"
-e = "e"
-i = "i"
-o = "o"
-u = "u"
+letter = input("Enter a letter: ").lowest
 
-if letter == a or letter == e letter or letter == o  or letter == o or letter == u :
+
+
+if letter == "a" or letter == "e" or letter  == "i"  or letter == "o" or letter == "u" :
     print("This is vowel")
 else: print("This is consonant")
