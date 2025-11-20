@@ -1,6 +1,6 @@
 largest = 0
-smallest = 0
-product = 0
+smallest = 
+product = 1
 addition = 0
 average = 0
 
@@ -13,6 +13,7 @@ for counter in range(0,4):
         smallest += number
     product *= number
     addition += number
+
 average = addition / 4
 print("The sum of integers is: ", addition)
 print("The Largest number is: ", largest)
